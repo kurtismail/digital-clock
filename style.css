@@ -1,0 +1,68 @@
+@font-face {
+    font-family: digital;
+    src: url(./font/font.txt);
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+background-image: url(https://cdn.pixabay.com/photo/2021/10/03/12/10/spider-web-6677845_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container{
+    border: 12px solid rgb(0, 0, 0);
+    padding: 50px 100px;
+    border-radius: 60px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    box-shadow: 6px 10px 15px black;
+}
+
+  main {
+    margin-bottom: 10rem;
+    opacity: 0.8;
+  }
+  
+  p {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 7rem;
+    font-family: digital;
+    text-shadow: 3px 3px 20px;
+    border: 10px solid ;
+    border-radius: 40px;
+    box-shadow: 6px 10px 15px black;
+    padding: 40px;
+    background-image: linear-gradient(165deg,rgb(24, 7, 98),rgb(31, 87, 243),rgb(251, 207, 10));
+  }
+  
+  @media screen and (max-width: 800px) {
+    p {
+      font-size: 5rem;
+      color: aqua;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    p {
+      font-size: 4rem;
+      color: rgb(255, 23, 23);
+    }
+  }
+  @media screen and (max-width: 400px) {
+    p {
+      font-size: 3rem;
+      color: lawngreen;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    p {
+      font-size: 2rem;
+      color: fuchsia;
+    }
+  }
